@@ -23,7 +23,7 @@ public class FragmentAdapter extends FragmentStateAdapter {
             case 0: return new FirstFragment();
             case 1: return new SecondFragment();
             case 2: return new ThirdFragment();
-            case 4: return new FourthFragment();
+            case 3: return new FourthFragment();
             default: return new FifthFragment();
         }
     }
